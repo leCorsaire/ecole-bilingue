@@ -1,0 +1,50 @@
+@media (max-width: 750px)
+{
+	#banner
+	{
+		position: static;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+@media (min-width: 750px)
+{
+	header
+	{
+		background-image: url("../img/backgrounds/header-background.jpg");
+	}
+	
+	#banner
+	{
+		position: relative;
+		width: 50%;
+		display: block;
+		margin-left: 20px;
+	}
+
+}
+
+header
+{
+	background-color: white;
+	background-position: top right;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+
+
+
+footer
+{
+	min-height: 40px;
+	color: white;
+	text-align: center;
+}
+
+footer p
+{
+	font-family: 'Neou';
+	position: relative;
+	top: 10px;
+}

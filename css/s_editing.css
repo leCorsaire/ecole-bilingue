@@ -1,0 +1,16 @@
+#back, #update
+{
+	font-family: "Roboto";
+	margin: 10px;
+}
+
+#back a
+{
+	color : #b19a86;
+	text-decoration: none;
+}
+
+.edit_area
+{
+	margin-top: 20px;
+}

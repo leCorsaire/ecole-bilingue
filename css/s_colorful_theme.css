@@ -1,0 +1,29 @@
+/* Colorful Theme est appliqué sur :
+- index.php
+- espace.php
+- login.php
+- editing.php */
+
+body
+{
+	background-color: white;
+}
+
+
+#bloc
+{
+	background-color: #FFF9EB;
+}
+
+footer
+{
+	background-color: black;
+}
+
+@media (max-width: 992px)
+{
+	#login_mail, #social
+	{
+		background-color: #FFF9EB;
+	}
+}

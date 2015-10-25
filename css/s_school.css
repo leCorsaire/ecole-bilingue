@@ -1,0 +1,46 @@
+body
+{
+	background-color: #409780;
+}
+
+#bloc
+{
+	background-color: #95bfae;
+	min-height : 100%;
+}
+
+.content
+{
+	color: white;
+}
+
+.content h2
+{
+	font-family: 'Neou', 'Trebuchet MS', 'Serif';
+	font-size: 40px;
+}
+
+.content p
+{
+	font-family: 'Roboto', 'Serif';
+}
+
+@media (min-width: 1200px)
+{
+
+}
+
+@media (min-width: 1400px)
+{
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+
+}
+
+@media (max-width: 991px)
+{
+
+}

@@ -1,0 +1,332 @@
+#menu_extended
+{
+	background-image: url(../img/backgrounds/polygons.jpg);
+	background-position: center center;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+
+	
+}
+
+#menu
+{
+	position: relative;
+	margin: auto;
+	min-height: 400px;
+}
+
+#menu section
+{
+	position: absolute;
+	
+}
+
+#menu .en_tete_section
+{
+	position: absolute;
+	font-family: 'Neou', 'Trebuchet MS', 'Serif';
+	color: white;
+}
+
+.icon
+{
+	display: inline-block;
+	margin: 5px;
+	background-color: white;
+	border-radius: 100%;
+}
+
+#login_mail .icon
+{	
+	border: 1px solid #00a9b8;
+}
+
+.box
+{
+	box-shadow: 0px 4px 5px black;
+}
+
+#school, #formation, #e-learning
+{
+	top: 0px;
+	display: block;
+}
+
+#school_cadre
+{
+	background-color: #37806c;
+}
+	
+#formation_cadre
+{
+	background-color: #508d8f;
+}
+	
+#e_learning_cadre
+{
+	background-color: #984331;
+}
+
+.cadre
+{
+	position: absolute;
+	opacity: 0.9;
+	transition: clip 0.8s;
+	-webkit-transition : clip 0.8s;
+	-moz-transition : clip 0.8s;
+	-o-transition : clip 0.8s;
+}
+
+.cadre img
+{
+	width: 35px;
+	height: auto;
+	position: absolute;
+	left: 2px;
+}
+
+.desc
+{
+	color: white;
+	margin-top: 20px;
+	font-family: 'Roboto','Trebuchet MS', 'Serif';
+	opacity: 1;
+}
+
+iframe
+{
+	border: none;
+	height: 100%;
+}
+
+@media (min-width: 992px)
+{
+	#m_navigation
+	{
+		display: none;
+	}
+	
+	#menu
+	{
+		width: 800px;
+		height: 250px;
+	}
+	
+	#menu section
+	{
+		top: 40px;
+	}
+
+	#menu .en_tete_section
+	{
+		top: -30px;
+		font-size: 20px;
+	}	
+
+	.box
+	{
+		width: 200px;
+		height: auto;
+	}
+	
+	#school
+	{
+		left: 0px;
+	}
+	
+	#formation
+	{
+		left: 280px;
+	}
+	
+	#e-learning
+	{
+		left: 560px;
+	}
+	
+	.cadre
+	{
+		top: 0px;
+		width: 200px;
+		height: 200px;
+		clip: rect(0px 40px 200px 0px);
+	}
+	
+	.cadre:hover
+	{
+		clip: rect(0px 200px 200px 0px);
+	}
+	
+	.cadre img
+	{
+		top: 160px;
+	}
+	
+	.desc
+	{
+		font-size: 12px;
+		width: 130px;
+		margin-left: 50px;
+		margin-right: 5px;
+	}
+	
+	#social, #login_mail
+	{
+		position: absolute;
+	}
+
+	#social 
+	{
+		left: 10px;
+	}
+	
+	#login_mail
+	{
+		right: 10px;
+	}
+	
+	#social, #login_mail
+	{
+		position: absolute;
+		top: 300px;
+	}
+
+	.icon, #social, #login_mail
+	{
+		width: 40px;
+	}
+	
+	#social, #login_mail
+	{
+		top: 270px;
+	}
+}
+
+@media (max-width: 992px)
+{	
+	#menu
+	{
+		display: none;
+	}
+
+	#m_navigation section
+	{
+		min-height: 40px;
+		color: white;
+		text-align: center;
+	}
+	
+	#m_navigation section a
+	{
+		font-family: "Neou";
+		color: inherit;
+		display: block;
+		padding-top: 10px;
+	}
+
+	#m_school
+	{
+		background-color: #95bfae;
+	}
+
+	#m_diploma
+	{
+		background-color: #58a5ac;
+	}
+
+	#m_elearning
+	{
+		background-color: #d05a43;
+	}
+	
+	#social, #login_mail
+	{
+		text-align: center;
+	}
+
+	.icon
+	{
+		width: 40px;
+	}
+
+
+}
+
+@media (min-width: 1400px)
+{	
+	#menu
+	{
+		width: 1200px;
+		height: 400px;
+	}
+	
+	#menu section
+	{
+		position: absolute;
+		top: 70px;
+	}
+
+	#menu .en_tete_section
+	{
+		top: -40px;
+		font-size: 24px;
+	}	
+
+	.box
+	{
+		width: 300px;
+		height: auto;
+	}
+		
+	#school
+	{
+		left: 100px;
+	}
+	
+	#formation
+	{
+		left: 450px;
+	}
+	
+	#e-learning
+	{
+		left: 800px;
+	}
+	
+	.cadre
+	{
+		top: 0px;
+		width: 300px;
+		height: 300px;
+		clip: rect(0px 40px 300px 0px);
+	}
+	
+	.cadre:hover
+	{
+		clip: rect(0px 300px 300px 0px);
+	}
+	
+	.cadre img
+	{
+		top: 260px;
+	}
+	
+	.desc
+	{
+		font-size: 14px;
+		width: 130px;
+		margin-left: 70px;
+		margin-right: 5px;
+	}
+	
+	.icon, #social, #login_mail
+	{
+		width: 40px;
+	}
+
+	
+	#social, #login_mail
+	{
+		top: 350px;
+	}
+}
