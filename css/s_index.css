@@ -12,7 +12,6 @@
 {
 	position: relative;
 	margin: auto;
-	min-height: 400px;
 }
 
 #menu section
@@ -24,7 +23,7 @@
 #menu .en_tete_section
 {
 	position: absolute;
-	font-family: 'Neou', 'Trebuchet MS', 'Serif';
+	font-family: 'Roboto', 'Trebuchet MS', 'Serif';
 	color: white;
 }
 
@@ -97,6 +96,7 @@ iframe
 {
 	border: none;
 	height: 100%;
+	width: 100%;
 }
 
 @media (min-width: 992px)
@@ -104,6 +104,11 @@ iframe
 	#m_navigation
 	{
 		display: none;
+	}
+	
+	#menu_extended
+	{
+		min-height: 300px;
 	}
 	
 	#menu
@@ -187,13 +192,12 @@ iframe
 	
 	#social, #login_mail
 	{
-		position: absolute;
 		top: 300px;
 	}
 
 	.icon, #social, #login_mail
 	{
-		width: 40px;
+		width: 30px;
 	}
 	
 	#social, #login_mail
@@ -204,7 +208,7 @@ iframe
 
 @media (max-width: 992px)
 {	
-	#menu
+	#menu_extended
 	{
 		display: none;
 	}
@@ -218,7 +222,7 @@ iframe
 	
 	#m_navigation section a
 	{
-		font-family: "Neou";
+		font-family: "Roboto";
 		color: inherit;
 		display: block;
 		padding-top: 10px;
@@ -258,6 +262,11 @@ iframe
 	{
 		width: 1200px;
 		height: 400px;
+	}
+	
+	#menu_extended
+	{
+		min-height: 500px;
 	}
 	
 	#menu section

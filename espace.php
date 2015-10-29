@@ -36,8 +36,8 @@
 		<section id="bloc" class="container-fluid">
 			<nav class="row">
 				<button class="btn btn-default"><a href="editing.php">Editer les contenus</a></button>
-				<button class="btn btn-default"><a href="#">Editer le blog</a></button>
-				<button class="btn btn-warning"><a href="resources/session_destroy.php">Déconnexion</a></button>
+				<button class="btn btn-default"><a href="blog/wp-login.php">Editer le blog</a></button>
+				<button id="logout" class="btn btn-default"><a href="resources/session_destroy.php">Déconnexion</a></button>
 			</nav>	
 		</section>			
 			<?php

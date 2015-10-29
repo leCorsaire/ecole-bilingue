@@ -6,6 +6,16 @@
 
 nav
 {
-	margin-top: 10px;
 	text-align: center;
+}
+
+nav button
+{
+	display: inline-block;
+	margin: 10px;	
+}
+
+#logout a
+{
+	color: red;
 }

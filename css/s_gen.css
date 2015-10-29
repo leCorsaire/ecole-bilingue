@@ -17,7 +17,6 @@
 	
 	#banner
 	{
-		position: relative;
 		width: 50%;
 		display: block;
 		margin-left: 20px;
@@ -44,7 +43,7 @@ footer
 
 footer p
 {
-	font-family: 'Neou';
+	font-family: 'Roboto';
 	position: relative;
 	top: 10px;
 }

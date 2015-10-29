@@ -7,13 +7,8 @@
  * @since Twenty Fifteen 1.0
  */
 
-
-
 if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) || is_active_sidebar( 'sidebar-1' )  ) : ?>
-	
-		
-
-		<div id="secondary" class="secondary">
+	<div id="secondary" class="secondary">
 
 		<?php if ( has_nav_menu( 'primary' ) ) : ?>
 			<nav id="site-navigation" class="main-navigation" role="navigation">
@@ -42,7 +37,7 @@ if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) || is_active_sidebar(
 		<?php endif; ?>
 
 		<div id="logo">
-			<img src="http://localhost:8888/ecole_bi_lingue/default/0.1.2/img/logo.png">
+			<img src="http://localhost:8888/ecole_bi_lingue/default/0.1.3/img/blog_logo.png">
 		</div>
 
 		<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>

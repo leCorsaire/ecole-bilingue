@@ -26,16 +26,16 @@
 			?>
 		<section id="container-fluid">
 			<nav id="m_navigation" class="row">
-				<section id="m_school" class="col-xs-12"><a href="#">Ecole</a></section>
-				<section id="m_diploma" class="col-xs-12"><a href="#">Formation</a></section>
-				<section id="m_elearning" class="col-xs-12"><a href="#">e-Learning</a></section>
+				<section id="m_school" class="col-xs-12"><a href="#">ÉCOLE</a></section>
+				<section id="m_diploma" class="col-xs-12"><a href="#">FORMATION</a></section>
+				<section id="m_elearning" class="col-xs-12"><a href="#">e-LEARNING</a></section>
 			</nav>
 		</section>
 			
 			<nav id="menu_extended"> <!-- Englobe le menu sur sa largeur -->
 				<section id="menu">
 					<section id="school">
-						<p class="en_tete_section">Ecole</p>
+						<p class="en_tete_section">ÉCOLE</p>
 						<div id="school_cadre" class="cadre">
 							<p class="desc">De 3 à 11 ans, l'école accueille votre enfant pour un parcours scolaire en immersion.<br /><br />
 							Suivi et encadré par des professionnels, c'est dans une ambiance sereine qu'il évoluera à son rythme.</p>
@@ -45,7 +45,7 @@
 					</section>
 					
 					<section id="formation">
-						<p class="en_tete_section">Formation</p>
+						<p class="en_tete_section">FORMATION</p>
 						<div id="formation_cadre" class="cadre">
 							<p class="desc">Vous souhaitez devenir professeur des écoles, notre établissement est centre de formation bilingue.<br /><br />
 							Découvrez nos offres de formation dès 16 ans. 
@@ -56,7 +56,7 @@
 					</section>
 					
 					<section id="e-learning">
-						<p class="en_tete_section">E-Learning</p>
+						<p class="en_tete_section">e-LEARNING</p>
 						
 						<div id="e_learning_cadre" class="cadre">
 							<p class="desc">Parce que notre volonté est que l'éducation soit ouverte à tous, nous sommes également centre d'apprentissage en ligne.<br /><br />
@@ -68,13 +68,8 @@
 				</section>
 			</nav>
 			
-			
-			<section class="container-fluid">
-				<section class="row">
-					<iframe class="col-xs-12" sandbox="allow-scripts" src="../0.1.2/blog/index.php">
-					</iframe>
-				</section>
-			</section>
+			<iframe sandbox="allow-scripts" src="../0.1.3/blog/index.php">
+			</iframe>
 			
 			<nav id="login_mail">
 				<a href="login.php"><img class="icon" id="login" src="img/icons/login_mail/login_icon.png" alt="login icon"></a>

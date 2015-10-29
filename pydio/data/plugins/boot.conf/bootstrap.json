@@ -1,0 +1,32 @@
+{
+  "core.conf":{
+    "UNIQUE_INSTANCE_CONFIG":{
+      "instance_name":"conf.sql",
+      "group_switch_value":"conf.sql",
+      "SQL_DRIVER":{
+        "core_driver":"core",
+        "group_switch_value":"core"
+      }
+    },
+    "AJXP_CLI_SECRET_KEY":"npRH#*J%I%4nCgIpEXIJy9V!",
+    "DIBI_PRECONFIGURATION":{
+      "mysql_username":"root",
+      "mysql_use_mysqli":false,
+      "mysql_password":"root",
+      "mysql_host":"localhost",
+      "mysql_driver":"mysql",
+      "mysql_database":"pydio",
+      "group_switch_value":"mysql"
+    }
+  },
+  "core.auth":{
+    "MASTER_INSTANCE_CONFIG":{
+      "instance_name":"auth.sql",
+      "group_switch_value":"auth.sql",
+      "SQL_DRIVER":{
+        "core_driver":"core",
+        "group_switch_value":"core"
+      }
+    }
+  }
+}

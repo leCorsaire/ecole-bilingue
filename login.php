@@ -16,10 +16,11 @@
 			include 'html_parts/header.php';
 		?>
 		<section id="bloc" class="fluid-container">
+			<section class="row">
 			<form class="col-xs-8 col-xs-offset-2" method="POST" action="espace.php">
-				<h2>Connexion</h2>
-				<p>Identifiant : <input type="text" id="username" name="username"></input></p>
-				<p>Mot de passe : <input type="password" id="passwd" name="passwd"></input></p>
+				<h2>CONNEXION</h2>
+				<p>IDENTIFIANT : <input class="form" type="text" id="username" name="username"></input></p>
+				<p>MOT DE PASSE : <input type="password" id="passwd" name="passwd"></input></p>
 				<input class="btn btn-primary" type="submit" value="Se connecter"></input>
 				<?php
 				if (isset($_GET['error']))
@@ -33,6 +34,7 @@
 				}
 				?>
 			</form>
+			</section>
 		</section>
 		<section class="fluid-container">
 		<?php
