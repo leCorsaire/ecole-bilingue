@@ -25,7 +25,7 @@
 				include 'html_parts/header.php';
 			?>
 		<section id="container-fluid">
-			<nav id="m_navigation" class="row">
+			<nav id="m_navigation">
 				<section id="m_school" class="col-xs-12"><a href="#">ÉCOLE</a></section>
 				<section id="m_diploma" class="col-xs-12"><a href="#">FORMATION</a></section>
 				<section id="m_elearning" class="col-xs-12"><a href="#">e-LEARNING</a></section>
@@ -68,9 +68,6 @@
 				</section>
 			</nav>
 			
-			<iframe sandbox="allow-scripts" src="../0.1.3/blog/index.php">
-			</iframe>
-			
 			<nav id="login_mail">
 				<a href="login.php"><img class="icon" id="login" src="img/icons/login_mail/login_icon.png" alt="login icon"></a>
 				<img class="icon" id="mail" src="img/icons/login_mail/mail_icon.png">
@@ -82,6 +79,9 @@
 				<img class="icon" src="img/icons/social_0/youtube.png" alt="youtube">
 				<img class="icon" src="img/icons/social_0/wordpress.png" alt="wp">
 			</nav>
+			
+			<iframe sandbox="allow-scripts" src="../0.1.3/blog/index.php">
+			</iframe>
 			
 			<?php
 				include 'html_parts/footer.php';

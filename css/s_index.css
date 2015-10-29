@@ -213,6 +213,11 @@ iframe
 		display: none;
 	}
 
+	#m_navigation
+	{
+		width: 100%;
+	}
+
 	#m_navigation section
 	{
 		min-height: 40px;
@@ -247,6 +252,7 @@ iframe
 	{
 		text-align: center;
 	}
+
 
 	.icon
 	{

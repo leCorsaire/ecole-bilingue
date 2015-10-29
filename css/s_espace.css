@@ -9,13 +9,18 @@ nav
 	text-align: center;
 }
 
-nav button
+nav .blue
+{
+	color: #4073d4;
+}
+
+nav a
 {
 	display: inline-block;
 	margin: 10px;	
 }
 
-#logout a
+.red
 {
-	color: red;
+	color: #dc253a;
 }

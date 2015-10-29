@@ -15,9 +15,6 @@ input
 	min-height: 100%;
 }
 
-@media (min-width: 1200px)
-{
-
 form
 {
 	text-align: center;
@@ -26,24 +23,10 @@ form
 @media (min-width: 1400px)
 {
 
-	form
-	{
-		text-align: center;
-	}
-
 	form p, h2
 	{
 		font-family: 'Neou', 'Trebuchet MS', 'Serif';
 		color: #b19a86;
-	}
-
-}
-
-@media (max-width: 1199px)
-{
-	form
-	{
-		text-align: center;
 	}
 
 }

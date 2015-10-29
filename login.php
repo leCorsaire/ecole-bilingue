@@ -17,10 +17,14 @@
 		?>
 		<section id="bloc" class="fluid-container">
 			<section class="row">
-			<form class="col-xs-8 col-xs-offset-2" method="POST" action="espace.php">
+			<form class="col-xs-4 col-xs-offset-4" method="POST" action="espace.php">
 				<h2>CONNEXION</h2>
-				<p>IDENTIFIANT : <input class="form" type="text" id="username" name="username"></input></p>
-				<p>MOT DE PASSE : <input type="password" id="passwd" name="passwd"></input></p>
+				<section class="form-group">
+					<input class="form-control" type="text" id="username" name="username" placeholder="IDENTIFIANT"></input>
+				</section>
+				<section class="form-group">
+					<input class="form-control" type="password" id="passwd" name="passwd" placeholder="MOT DE PASSE"></input>
+				</section>
 				<input class="btn btn-primary" type="submit" value="Se connecter"></input>
 				<?php
 				if (isset($_GET['error']))
