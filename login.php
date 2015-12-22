@@ -16,7 +16,6 @@
 			include 'html_parts/header.php';
 		?>
 		<section id="bloc" class="fluid-container">
-			<section class="row">
 			<form class="col-xs-4 col-xs-offset-4" method="POST" action="espace.php">
 				<h2>CONNEXION</h2>
 				<section class="form-group">
@@ -38,7 +37,6 @@
 				}
 				?>
 			</form>
-			</section>
 		</section>
 		<section class="fluid-container">
 		<?php

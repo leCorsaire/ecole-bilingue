@@ -18,16 +18,19 @@
 		<script src="ckeditor/ckeditor.js"></script>
 	</head>
 	<body>
-	
 		<?php
 			include 'html_parts/header.php';
 		?>
 		
 			<section id="bloc" class="container-fluid">
 		
-			<button class="btn btn-default" id="back"><a href="espace.php">< Retour</a></button>
+			<button class=" row btn btn-default" id="back"><a href="espace.php">< Retour</a></button>
 			
-			<form method="POST" action="resources/editing_treatment.php" id="editing">	
+
+
+			
+			<section class="row">
+			<form class="col-lg-6" method="POST" action="resources/editing_treatment.php" id="editing">	
 			<?php
 		
 			for ($id_content=1; $id_content<=3; $id_content++)
@@ -51,6 +54,10 @@
 				<input class="btn btn-primary" id="update" type="submit" value="Mettre à jour"></input>
 			</form>
 			
+			<iframe class="col-lg-6" src="pydio/index.php">
+			</iframe>
+			
+			</section>
 			</section>
 			
 		

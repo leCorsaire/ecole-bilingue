@@ -1,16 +1,16 @@
-body
+body, #bloc
 {
 	background-color: #409780;
 }
 
 #bloc
 {
-	background-color: #95bfae;
 	min-height : 100%;
 }
 
 .content
 {
+	background-color: #95bfae;
 	color: white;
 }
 

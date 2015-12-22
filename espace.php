@@ -38,8 +38,9 @@
 				<a href="editing.php"><button class="btn btn-default"><span class="blue">Editer les contenus</span></button></a>
 				<a href="blog/wp-login.php"><button class="btn btn-default"><span class="blue">Editer le blog</span></button></a>
 				<a href="resources/session_destroy.php"><button class="btn btn-default"><span class="red">Déconnexion</span></button></a>
+				<!--<a href="pydio/index.php"><button class="btn btn-default"><img id="pydio_link" src="img/icons/pydio_logo.png"></button></a>-->
 			</nav>	
-		</section>			
+		</section>					
 			<?php
 			
 			print_r($_SESSION);

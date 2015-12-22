@@ -1,6 +1,6 @@
 #bloc
 {
-	min-height: 100%;
+	min-height: 100%; Phase de test */
 	font-family: "Roboto";
 }
 
@@ -19,6 +19,16 @@ nav a
 	display: inline-block;
 	margin: 10px;	
 }
+
+nav a button
+{
+	min-width: 120px;
+}
+
+/*#pydio_link
+{
+	max-width: 120px;
+}*/
 
 .red
 {

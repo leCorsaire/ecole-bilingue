@@ -37,8 +37,8 @@
 					<section id="school">
 						<p class="en_tete_section">ÉCOLE</p>
 						<div id="school_cadre" class="cadre">
-							<p class="desc">De 3 à 11 ans, l'école accueille votre enfant pour un parcours scolaire en immersion.<br /><br />
-							Suivi et encadré par des professionnels, c'est dans une ambiance sereine qu'il évoluera à son rythme.</p>
+							<p class="desc">Pour les 3-11 ans, un projet d'école primaire bilingue basé sur une pédagogie active où l'enfant évolue à son rythme.<br /><br />
+							Découvrez le projet associatif, éducatif et pédagogique.</p>
 							<a href="school.php"><img src="img/linkbutton.png" alt="linkbutton"></a>
 						</div>
 						<img class="box" src="img/school.png" alt="school">
@@ -47,8 +47,8 @@
 					<section id="formation">
 						<p class="en_tete_section">FORMATION</p>
 						<div id="formation_cadre" class="cadre">
-							<p class="desc">Vous souhaitez devenir professeur des écoles, notre établissement est centre de formation bilingue.<br /><br />
-							Découvrez nos offres de formation dès 16 ans. 
+							<p class="desc">Un projet de formation innovante d'enseignants en alternance.<br /><br />
+							Mise en place d'un parcours professionnel et diplomant dès 16 ans.
 							</p>
 							<a href="formation.php"><img src="img/linkbutton.png" alt="linkbutton"></a>
 						</div>
@@ -59,8 +59,8 @@
 						<p class="en_tete_section">e-LEARNING</p>
 						
 						<div id="e_learning_cadre" class="cadre">
-							<p class="desc">Parce que notre volonté est que l'éducation soit ouverte à tous, nous sommes également centre d'apprentissage en ligne.<br /><br />
-							Découvrez tous nos cours en ligne.</p>
+							<p class="desc">Afin de promouvoir les connaissance à l'heure de l'internet pour tous, une plateforme de MOOC et cours en ligne spécialisés sur l'éducation.<br /><br />
+							Découvrez le site web des cours en ligne.</p>
 							<a href="http://localhost:8888/ecole_bi_lingue/default/0.1.1/e-learning/"><img src="img/linkbutton.png" alt="linkbutton"></a>
 						</div>
 						<img class="box" src="img/elearning.png" alt="e-learning">
@@ -73,11 +73,11 @@
 				<img class="icon" id="mail" src="img/icons/login_mail/mail_icon.png">
 			</nav>
 			<nav id="social">
-				<img class="icon" src="img/icons/social_0/facebook.png" alt="facebook">
+				<a href="http://facebook.com/ecolebilingueperpignan/"><img class="icon" src="img/icons/social_0/facebook.png" alt="facebook"></a>
 				<img class="icon" src="img/icons/social_0/twitter.png" alt="twitter">
 				<img class="icon" src="img/icons/social_0/g+.png" alt="google+">
 				<img class="icon" src="img/icons/social_0/youtube.png" alt="youtube">
-				<img class="icon" src="img/icons/social_0/wordpress.png" alt="wp">
+				<a href="blog/index.php"><img class="icon" src="img/icons/social_0/wordpress.png" alt="wp"></a>
 			</nav>
 			
 			<iframe sandbox="allow-scripts" src="../0.1.3/blog/index.php">
