@@ -16,6 +16,7 @@
 		<link rel="stylesheet" href="css/s_gen.css">
 		<link rel="stylesheet" href="css/s_colorful_theme.css">
 		<script src="ckeditor/ckeditor.js"></script>
+		<script src="jquery/jquery.js"></script>
 	</head>
 	<body>
 		<?php
@@ -64,7 +65,7 @@
 		<?php
 			include 'html_parts/footer.php';
 		?>
-		
+
 		
 	</body>
 </html>

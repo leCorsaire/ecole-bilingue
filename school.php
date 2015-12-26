@@ -28,10 +28,11 @@
 			$content = $bdd->query('SELECT content FROM content WHERE id=1');
 			$print_content = $content->fetch();
 			
-			echo '<section class="content col-xs-7 col-xs-offset-2"><p>' . $print_content['content'] . '</p></section>';
+			echo '<section class="content col-md-7 col-md-offset-2"><p>' . $print_content['content'] . '</p></section>';
 			
 		?> 
 		
+			</section>
 		</section>
 		<?php include 'html_parts/footer.php'; ?>
 	</body>

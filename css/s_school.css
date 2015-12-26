@@ -16,7 +16,7 @@ body, #bloc
 
 .content h2
 {
-	font-family: 'Neou', 'Trebuchet MS', 'Serif';
+	font-family: 'Roboto', 'Trebuchet MS', 'Serif';
 	font-size: 40px;
 }
 
@@ -25,9 +25,24 @@ body, #bloc
 	font-family: 'Roboto', 'Serif';
 }
 
+footer
+{
+	background-color: #9DD5C4;
+}
+
 @media (min-width: 1200px)
 {
+	.content
+	{
+		margin-top: -20px;
+		box-shadow : 5px 5px 5px black;
+	}
+	
+	footer
+	{
+		margin-top: 15px;
 
+	}
 }
 
 @media (min-width: 1400px)
